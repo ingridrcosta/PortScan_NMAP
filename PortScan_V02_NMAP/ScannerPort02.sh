@@ -3,7 +3,7 @@
 ###########################################################################
 
     #Chame o Script com o bash e nome do script
-    #Ex.: bash ScannerPort.sh
+    #Ex.: bash ScannerPort02.sh
 
     #pode ser colocado parametros também como: 
     #Ex.: bash Scannerport.sh 192.168.1.1 e o ultimo octeto do IP 255
