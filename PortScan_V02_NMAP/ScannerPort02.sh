@@ -70,7 +70,7 @@ fi
 BlocoDeIP="$1"
 FimDeBloco="$2"
 
-nmap -T4 -F -Pn "$BlocoDeIP"/"$FimDeBloco" | tee -a "$GeradorLogs"
+nmap -T4 -F -Pn "$BlocoDeIP" "$FimDeBloco" | tee -a "$GeradorLogs"
 echo "$BlocoDeIP"
    
 
